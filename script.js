@@ -16,7 +16,7 @@ form.addEventListener("submit", async (event) => {
 		const info = `
             <h2>${data.name.toUpperCase()}</h2>
             <img src="${spriteUrl}">
-            <p>Types: ${types}</p>
+            <p>${types}</p>
           `;
 		const pokemonInfo = document.querySelector("#pokemon-info");
 		pokemonInfo.innerHTML = info;
